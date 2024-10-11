@@ -1,0 +1,42 @@
+body {
+    background-color: beige;
+    text-align: center;
+
+}
+
+#board {
+    width: 540px;
+    height: 540px;
+    background: url("../images/field.png");
+    background-size: cover;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.empty {
+    width: 180px;
+    height: 180px;    
+}
+
+.player1 {
+    width: 180px;
+    height: 180px;
+    background: url("../images/Player1.png");
+    background-size: cover; 
+}
+
+.player2 {
+    width: 180px;
+    height: 180px;
+    background: url("../images/Player2.png");
+    background-size: cover; 
+}
+
+.backButton {
+    color: beige;
+    border-radius: 5px;
+    border: unset;
+    background-color: lightblue;
+}
