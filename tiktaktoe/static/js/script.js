@@ -120,7 +120,7 @@ function restart(){
     formData.append("start_player", startPlayer);
     formData.append("csrfmiddlewaretoken", token);
 
-    fetch("newGame/", {
+    fetch(window.location.origin + "newGame/", {
         method: "POST",
         body: formData
     });
